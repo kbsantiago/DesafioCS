@@ -31,7 +31,7 @@ namespace Autenticacao.API.Controllers
 
                     _usuarioApplication.Criar(novoUsuario);
 
-                    return Ok(novoUsuario);
+                    return Created<Usuario>("", novoUsuario);
                 }
                 else
                 {

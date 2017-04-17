@@ -1,261 +1,256 @@
 {
-	"id": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-	"name": "ConcreteSolution - Teste",
-	"description": "",
-	"order": [
-		"a56bcf2b-a3db-3b10-8aed-cd77b7c1f4df",
-		"2d0cd812-8b42-11ed-b021-d6a09811be87",
-		"b37e16e8-9c12-887f-2967-0d40e5c9eca6",
-		"9418d6c3-241e-e9dd-6da5-f9099637bb07",
-		"acc72a3d-dde5-d254-35c2-407f6a4397e5",
-		"086128de-33b8-da48-228a-3d7a7b465bfd",
-		"d5387202-8156-f2ef-37d9-5f370dda7502",
-		"da68081d-a585-0011-03d2-0f2268f9a00a",
-		"0bc1f1c2-3465-e9ea-7152-5ae03474b484",
-		"74775fe9-5656-ed8f-4a40-063a012e4e5a",
-		"fc7dc3ba-7d50-4d80-1fa9-cf92685f56a1",
-		"5d6b9985-e8a5-20a5-1ca9-eac3fdb1a6a5"
-	],
-	"folders": [],
-	"timestamp": 1492292798077,
-	"owner": "",
-	"public": false,
-	"requests": [
+	"variables": [],
+	"info": {
+		"name": "ConcreteSolution - Teste",
+		"_postman_id": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
 		{
-			"id": "086128de-33b8-da48-228a-3d7a7b465bfd",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492356188416,
-			"name": "http://localhost:55345/api/login (login válido) 2",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"isFromCollection": true,
-			"collectionRequestId": "acc72a3d-dde5-d254-35c2-407f6a4397e5",
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
-		},
-		{
-			"id": "0bc1f1c2-3465-e9ea-7152-5ae03474b484",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492356188416,
-			"name": "http://localhost:55345/api/login (Com e-mail e senha inválidos)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
-		},
-		{
-			"id": "2d0cd812-8b42-11ed-b021-d6a09811be87",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492330600028,
-			"name": "http://localhost:55345/api/signup (Usuário válido) 2",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"isFromCollection": true,
-			"collectionRequestId": "a56bcf2b-a3db-3b10-8aed-cd77b7c1f4df",
-			"rawModeData": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
-		},
-		{
-			"id": "5d6b9985-e8a5-20a5-1ca9-eac3fdb1a6a5",
-			"headers": "Content-Type: application/json\nAuthorization: tokenerrado\n",
-			"url": "http://localhost:55345/api/profile?id=c9216191-1a55-4a28-8328-87f508e9519a",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492378620796,
-			"name": "http://localhost:55345/api/profile (Usuário inválido token errado)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
-		},
-		{
-			"id": "74775fe9-5656-ed8f-4a40-063a012e4e5a",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492356188416,
-			"name": "http://localhost:55345/api/login (Com e-mail váldio e senha inválida)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
-		},
-		{
-			"id": "9418d6c3-241e-e9dd-6da5-f9099637bb07",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492330600028,
-			"name": "http://localhost:55345/api/signup (Com e-mail já cadastrado)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"isFromCollection": true,
-			"collectionRequestId": "a56bcf2b-a3db-3b10-8aed-cd77b7c1f4df",
-			"rawModeData": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
-		},
-		{
-			"id": "a56bcf2b-a3db-3b10-8aed-cd77b7c1f4df",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492330600028,
 			"name": "http://localhost:55345/api/signup (Usuário válido)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
 		},
 		{
-			"id": "acc72a3d-dde5-d254-35c2-407f6a4397e5",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492356188416,
-			"name": "http://localhost:55345/api/login (login válido)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+			"name": "http://localhost:55345/api/signup (Usuário válido) 2",
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
 		},
 		{
-			"id": "b37e16e8-9c12-887f-2967-0d40e5c9eca6",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492330600028,
 			"name": "http://localhost:55345/api/signup (Usuário válido) 3",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"isFromCollection": true,
-			"collectionRequestId": "2d0cd812-8b42-11ed-b021-d6a09811be87",
-			"rawModeData": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
 		},
 		{
-			"id": "d5387202-8156-f2ef-37d9-5f370dda7502",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492378133723,
+			"name": "http://localhost:55345/api/signup (Com e-mail já cadastrado)",
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"nome\": \"Kleyson Bezerra Santiago\",\r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\",\r\n    \"telefones\": [\r\n        {\r\n            \"numero\": \"99782-4045\",\r\n            \"ddd\": \"47\"\r\n        }\r\n    ]\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55345/api/login (login válido)",
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55345/api/login (login válido) 2",
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
+		},
+		{
 			"name": "http://localhost:55345/api/login (login válido) 3",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"ana.soares@gmail.com\",\r\n    \"senha\": \"01298\"\r\n}"
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"ana.soares@gmail.com\",\r\n    \"senha\": \"01298\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
 		},
 		{
-			"id": "da68081d-a585-0011-03d2-0f2268f9a00a",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492356188416,
 			"name": "http://localhost:55345/api/login (Com e-mail inválido)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
 		},
 		{
-			"id": "fc7dc3ba-7d50-4d80-1fa9-cf92685f56a1",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:55345/api/login",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1492356188416,
+			"name": "http://localhost:55345/api/login (Com e-mail e senha inválidos)",
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55345/api/login (Com e-mail váldio e senha inválida)",
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
+		},
+		{
 			"name": "http://localhost:55345/api/profile (Usuário válido)",
-			"description": "Script para signup do usuário.",
-			"collectionId": "c1e99c6b-049e-9f36-0c6a-3555a9f4e40e",
-			"responses": [],
-			"rawModeData": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+			"request": {
+				"url": "http://localhost:55345/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55345/api/profile (Usuário inválido token errado)",
+			"request": {
+				"url": "http://localhost:55345/api/profile?id=c9216191-1a55-4a28-8328-87f508e9519a",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "tokenerrado",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"email\": \"kleyson.santiago@gmail.com\",\r\n    \"senha\": \"123456\"\r\n}"
+				},
+				"description": "Script para signup do usuário."
+			},
+			"response": []
 		}
 	]
 }

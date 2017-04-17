@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{9C77A797-A34B-4A96-BC48-4513F29577BF}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\ConcreteSolution - Teste.postman_collection.json = ..\..\..\..\Desktop\ConcreteSolution - Teste.postman_collection.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{E205FC23-C09D-4DA5-B447-7AE7763A060C}"
 EndProject
