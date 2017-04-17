@@ -11,7 +11,7 @@ namespace Autenticacao.Infrastructure.Data.Context
     public class AutenticacaoContext : DbContext
     {
         public AutenticacaoContext()
-            : base("AutenticaoDB")
+            : base("AutenticacaoDB")
         {
 
         }
