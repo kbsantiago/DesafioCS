@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:55345/api/signup (Usuário válido)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/signup (Usuário válido)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -28,7 +28,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/signup (Usuário válido) 2",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/signup (Usuário válido) 2",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -48,7 +48,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/signup (Usuário válido) 3",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/signup (Usuário válido) 3",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -68,7 +68,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/signup (Com e-mail já cadastrado)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/signup (Com e-mail já cadastrado)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -88,7 +88,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/login (login válido)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/login (login válido)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -108,7 +108,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/login (login válido) 2",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/login (login válido) 2",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -128,7 +128,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/login (login válido) 3",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/login (login válido) 3",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -148,7 +148,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/login (Com e-mail inválido)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/login (Com e-mail inválido)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -168,7 +168,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/login (Com e-mail e senha inválidos)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/login (Com e-mail e senha inválidos)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -188,7 +188,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/login (Com e-mail váldio e senha inválida)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/login (Com e-mail váldio e senha inválida)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -208,7 +208,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/profile (Usuário válido)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/profile (Usuário válido)",
 			"request": {
 				"url": "http://localhost:55345/api/login",
 				"method": "POST",
@@ -228,7 +228,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:55345/api/profile (Usuário inválido token errado)",
+			"name": "http://desafiocsautenticacao2.azurewebsites.net/api/profile (Usuário inválido token errado)",
 			"request": {
 				"url": "http://localhost:55345/api/profile?id=c9216191-1a55-4a28-8328-87f508e9519a",
 				"method": "POST",
